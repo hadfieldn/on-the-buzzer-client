@@ -12,22 +12,35 @@
   flex: 1;
   opacity: 0.5;
   transition: all 0.1s ease-out;
+  align-items: center;
+  justify-content:  center;
+  display: flex;
 }
 
 .Result .team-1 {
   /* Vidsy blue 💁‍♂️ */
-  background: #035496;
+  background: #d6d503;
 }
 
 .Result .team-2 {
   /* Vidsy red 💁‍♀️ */
-  background: #ec0640;
+  background: #640bc3;
 }
 
 .Result .buzzed {
   opacity: 1;
+
 }
 
 .Result .not-buzzed {
   flex: 0;
+}
+
+.Result img {
+  max-width: 60vh;
+  display: none;
+}
+.Result .buzzed img {
+  flex: 1;
+  display: flex;
 }
